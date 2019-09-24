@@ -1,0 +1,33 @@
+//By Gaddisa Olani
+// C++ program to find the sum of  
+// the given series  
+#include <stdio.h> 
+#include <math.h>  
+#include <iostream> 
+  
+using namespace std; 
+  
+// Function to return the  
+// sum of the series  
+float getSum(int a, int n)  
+{  
+    // variable to store the answer  
+    float sum = 0;  
+    for (int i = 1; i <= n; ++i)  
+    {  
+  
+        // Math.pow(x, y) returns x^y  
+        sum += (i / pow(a, i));  
+    }  
+    return sum;  
+}  
+  
+// Driver code  
+int main()  
+{ 
+    int a = 3, n = 3;  
+      
+    // Print the sum of the series  
+    cout << (getSum(a, n));  
+    return 0; 
+} 
