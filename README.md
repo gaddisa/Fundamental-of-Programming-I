@@ -5,3 +5,4 @@ This repository contains C++ sample codes that I used to teach Fundamentals of P
 These samples are by no means complete, nor free from deficiencies. Feel free to make them complete or introduce them to more C++ newbies or teachers. The samples cover only the standard/ISO C++ language.
 
 Thanks!
+![Alt text](C:\Users\gaddi\Pictures\gaddisa2.JPGraw=true "Title")
